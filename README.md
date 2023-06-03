@@ -13,7 +13,7 @@
 * This is a copy of a usabilityhub website's homepage.
 * for further information check out : <https://github.com/Atharvpandey981/FRONTEND-PROJECT3.git>
 
-### CONTACT
+### `CONTACT`
 email: <atharvpandey981@gmail.com>
 ### THANKS FOR VISITING
 
