@@ -8,3 +8,9 @@
 * This is my second frontend project.
 * This is copy of a gym template's homepage.
 * for further information check out : <https://github.com/Atharvpandey981/FRONTEND-PROJECT2.git>
+## `3. FRONTEND-PROJECT3`
+* This is my third frontend project.
+* This is a copy of a usabilityhub website's homepage.
+* for further information check out : <https://github.com/Atharvpandey981/FRONTEND-PROJECT3.git>
+### THANKS FOR VISITING
+
