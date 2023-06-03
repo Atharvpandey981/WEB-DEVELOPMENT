@@ -3,7 +3,7 @@
 ##  `1. FOOD-DELIVERY-TEMPLATE`
 * This is my first ever frontend project.
 * This a very simple food delivery website's homepage.
-* for further information check out :  <https://github.com/Atharvpandey981/FRONTEND-PROJECT1.git>
+* for further information check out :  <https://github.com/Atharvpandey981/FOOD-DELIVERY-TEMPLATE.git>
 ## `2. GYM-TEMPLATE`
 * This is my second frontend project.
 * This is copy of a gym template's homepage.
