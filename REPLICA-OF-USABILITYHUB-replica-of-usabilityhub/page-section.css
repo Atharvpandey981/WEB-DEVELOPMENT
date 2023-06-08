@@ -1,0 +1,92 @@
+.page-section > .container{
+    justify-content: space-between;
+}
+
+.page-section{
+    background-color: #183b54;
+}
+.p-s-img{
+    background-image: url(assets/asset40.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:  center;
+    width:60rem;
+    height: 60rem;
+}
+.p-s-div{
+width: 60rem;
+margin: 0;
+padding:4rem 2rem;
+
+}
+.p-s-div > button {
+    width: 14rem ;
+    height: 4rem;
+    margin: 2rem 2rem  2rem 0;
+    color: #fff;
+    background-color: var(--primary-color);
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+font-size: 1.4rem ;
+font-weight: 600;
+
+}
+
+.p-s-div > button:hover{
+    background-color: var(--primary-color-dark);
+}
+.p-s-div > h2{
+    font-size: 4rem !important;
+}
+.p-s-div >h2,h3 {
+color: #fff;
+text-align: left;
+font-weight: 600;
+font-size: 2rem;
+}
+.p-s-div > p {
+    font-size: 2rem;
+    text-align: left;
+    color: #b9cde4;
+    margin: 1rem 0 3rem 0;
+}
+.p-s-div > ul {
+    width: 54rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+.p-s-div > ul >li{
+    color:#b9cde4;
+    font-size: 1.6rem;
+    list-style-type: disc;
+    padding: 0;
+    margin:  1rem 2rem ;
+    
+}
+.p-s-img-div{
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+    width: 14rem;
+}
+.p-s-img-div > div{
+    font-size: 1.9rem;
+   
+}
+
+.p-s-img-div>:nth-child(2){
+    color: #8ba6c0;
+    
+    
+}
+.p-s-img-div >  strong{
+    color: #2294ed;
+    font-size: 5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p-s-img > img{
+    width: 44%;
+}

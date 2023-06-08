@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Roboto:wght@400;700&display=swap');
+
+/* -----------------------------reset------------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:62.5%;
+    scroll-behavior: smooth;
+}
+
+/* ------------------------variables---------------------- */
+:root{
+    --primary-text-color:#183b56;
+    --secondry-text-color:#577592;
+    --primary-color:#2294ed;
+    --primary-color-dark:#1d69a3;
+}
+
+/* -----------------------utility------------------------ */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color:var(--primary-text-color);
+}
+h1{
+    font-size:4rem;
+    text-align: center;
+
+}
+
+h2{
+    font-family: 'Roboto',sans-serif;
+    font-size: 3.2rem;
+    text-align: center;
+    font-weight: 100;
+}
+
+h3{
+    font-size:2rem;
+}
+p{
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color:var(--secondry-text-color);
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    padding:1rem 2rem;
+
+}
+
+hr{
+    display: none;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 2rem;
+}
+
+a{
+    font-size: 1.5rem;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}
+a:hover{
+    color: var(--primary-color);
+}
+
+.flex-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
+
+.flex-column{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inline-flex-row{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inline-flex-column{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.small-bold-text{
+    font-size: 1.4rem;
+    font-weight: 500;
+    
+}
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+::-webkit-scrollbar{
+    width: .4rem;
+    height: .4rem;
+}
+::-webkit-scrollbar-track{
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background: linear-gradient(#e74694 , var(--primary-color));
+    border-radius: 25rem;
+}

@@ -1,0 +1,17 @@
+.clients-section{
+    padding-bottom: 4rem;
+    margin-bottom: 4rem;
+}
+
+.clients-section>.container>p{
+    color:#183b56 !important;
+    font-size: 1.8rem;
+}
+.clients-div > img{
+width: 12rem;
+margin: 2rem 2rem 0 2rem;
+}
+
+.clients-div>:nth-child(5){
+    width: 8rem;
+}
