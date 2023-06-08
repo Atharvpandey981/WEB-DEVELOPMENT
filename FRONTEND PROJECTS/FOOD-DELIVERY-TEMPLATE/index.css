@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    background-color: rgb(0 0 0 / 49%);
+    position: fixed;
+    width: 100vw;
+    /* position: absolute; */
+}
+nav{
+    display: flex;
+    height: 5rem;
+}
+nav img{
+width: 4.1rem;
+height: 4.2rem;
+position: relative;
+left: .5rem;
+margin: auto 0rem;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-size: 1.9rem;
+    padding: 0rem 1.8rem;
+}
+
+
+
+/* HEADER CLOSED */
+
+
+
+.section1{
+    height: 29.1rem;
+    background-image: url(img/background.jpg);
+    background-position: center;
+   
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.section1 #para-1{
+    color: white;
+    font-size: 4.1rem;
+    margin: 6.2rem 0rem 0rem 0rem;
+    font-weight: 500;
+ 
+
+}
+.section1 #para-2{
+    width: 50vw;
+    color: white;
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 2.5rem 0rem;
+}
+
+#hr-1{
+    
+    background-color: black;
+    height: .2rem;
+    border-radius: 5rem;
+    width: 95vw;
+    border: none;
+    outline: none;
+    margin: auto;
+    position: relative;
+    top: 1rem;
+    overflow: hidden;
+}
+.section2{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: column;
+}
+ #section2-main{
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem 0rem 7rem 0rem;
+}
+#section2-heading{
+    margin: 4rem auto;
+    font-size: 4rem;
+    font-weight: 200;
+} 
+
+#card-1 img{
+    width: 16rem;
+    
+}
+#card-1 #card-1-p1{
+    font-size: 2.2rem;
+}
+#card-1 #card-1-p2{
+    margin: 0rem 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+.section2-card{
+    width: 40rem;
+    background-color: rgba(231, 163, 163, 0.192);
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
+    border-radius: 6rem 1.4rem 6rem 1.4rem;
+    margin: 0rem 3rem;
+}
+
+
+#card-2 img{
+    width: 18rem;
+    
+}
+
+#card-2 #card-2-p1{
+    font-size: 2.2rem;
+}
+#card-2 #card-2-p2{
+    margin: 0rem 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+
+
+
+
+#card-3 img{
+    width: 20rem;
+    
+}
+#card-3 #card-3-p1{
+    font-size: 2.2rem;
+}
+#card-3 #card-3-p2{
+    margin: 0rem 4rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#hr-2{
+    background-color: black;
+    height: .2rem;
+    border-radius: 5rem;
+    width: 95vw;
+
+    border: none;
+    outline: none;
+    margin: auto;
+    position: relative;
+    bottom: 1rem;
+    overflow: hidden;
+}
+
+.section3{
+    height: 32rem;
+    background-image: url(img/clients-bg.jpg);
+background-size: cover;
+    background-repeat: no-repeat;
+      background-position:  center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.section3-img{
+    width: 9rem;
+    /* margin: 0rem 5rem; */
+}
+#section3-img3{
+    width: 16rem;
+}
+#section3-heading{
+    color: white;
+    margin: 2rem auto;
+    font-size: 4rem;
+    font-weight: 400;
+   
+} 
+.section3-main{
+    display: flex;
+    justify-content: space-around;
+    margin: 6rem 30rem;
+}
+
+#hr-3{
+    background-color: black;
+    height: .2rem;
+    border-radius: 5rem;
+    width: 95vw;
+
+    border: none;
+    outline: none;
+    margin: auto;
+    position: relative;
+    top: 1rem;
+    overflow: hidden; 
+}
+
+.section4{
+    margin: 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    background-image: url(img/footer-bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#section4-heading{
+    color:black;
+    margin: 2rem auto;
+    font-size: 4rem;
+    font-weight: 400;
+}
+#section4-main{
+    display: flex;
+    margin: 0rem auto;
+    justify-content: center;
+
+}
+.form-group{
+    /* width: 60rem; */
+    /* height: 3rem; */
+    font-size: 2.5rem;
+    margin: 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+}
+.form-group input{
+    font-size: 1.5rem;
+    width: 50vw;
+    height: 3rem;
+    border-radius: 1rem;
+    color: rgb(0, 0, 0);
+}
+.form-group {
+    color: white;
+}
+#form-card3 {
+    margin: 0rem 0rem;
+}
+/* .form-group textarea{
+    width: 30rem;
+    height: 3rem;
+} */
+#form-card4 textarea{
+    border-radius: 1rem; 
+    width: 50vw;
+    height: 3rem;
+}
+#form-card5 input{
+    background-color: red;
+color: white;
+font-weight: 200;
+outline: none;
+border: 1px solid white;
+margin: 2rem 0;
+resize: none;
+
+}
+#hr-4{
+    background-color: black;
+    height: .2rem;
+    border-radius: 5rem;
+    width: 126rem;    width: 95vw;
+    border: none;
+    outline: none;
+    margin: auto;
+    position: relative;
+    bottom: 1rem;
+    overflow: hidden;   
+}
+
+/* main closed */
+footer{
+    display: flex;
+    background-color: black;
+    height: 5rem;
+    color: white;
+    font-size: 2rem;
+    justify-content: center;
+    align-items: center;
+}

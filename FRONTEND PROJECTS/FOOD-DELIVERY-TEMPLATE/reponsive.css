@@ -1,0 +1,102 @@
+@media screen and (min-width: 1628px) {
+    html{
+        font-size: 80%;
+    }
+   
+}
+@media screen and (max-width:1628px){
+    .section3-main{
+        margin: 0;
+    }
+}
+@media screen and (min-width:1828px) {
+    html{
+        font-size: 100%;
+    }
+}
+@media screen and (max-width:450px) {
+    nav{
+        height: 10rem;
+        flex-direction: column;
+    }
+    nav img{
+        margin: 1rem auto;
+    }
+    nav ul{
+        margin: 0 auto;
+    }
+    .section1 #para-1{
+        align-items: baseline;
+        margin: 12.2rem 0rem 0rem 0rem;
+
+        /* height: 10rem; */
+    }
+    .section3-img {
+        width: 7rem;
+    }
+}
+@media screen and (max-width:500px) {
+/* .section3{
+    /* background-position: 0 0; */
+/* }  */
+    
+}
+@media screen and (max-width:800px){
+    html{
+        font-size: 50%;
+    }
+   #section2-main{
+    flex-direction: column;
+    margin: auto 0rem 0rem 0rem;
+   }
+   .section2-card{
+    width: 70rem;
+    /* margin: 3rem 0rem; */
+    margin:  2rem auto;
+    border-radius: 6.5rem 0rem 6.5rem 0rem;
+   }
+   #section2-heading{
+    margin: 2rem auto auto;
+   }
+   
+}
+@media screen and (max-width:775px) {
+    html{
+        font-size: 40%;
+    }
+    .section2-card{
+        width: 96vw;
+    }
+    #section3-heading{
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .section3{
+        /* width: 10rem; */
+        height: 22rem;
+    }
+    .section3-main{
+        /* margin: 6rem 0; */
+        position: relative;
+        /* bottom: 3rem; */
+    }
+   #section4-main input{
+    width: 50vw;
+   }
+    #form-card4 textarea{
+resize: none;
+    }
+    .section3-img{
+        width: 9rem;
+        margin: 0;
+    }
+    .section3-main{
+        justify-content:space-between;
+    }
+    #section3-img3{
+        width: 15rem;
+    }
+    .section4 input{
+        width: 95vw;
+    }
+}
