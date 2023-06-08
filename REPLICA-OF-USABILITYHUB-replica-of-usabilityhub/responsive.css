@@ -1,0 +1,101 @@
+@media screen and (width > 2000px){
+    html{
+        font-size: 100% !important;
+    }
+}
+
+@media screen and (width > 1600px) and (width < 2000px) {
+    html{
+        font-size: 80% !important;
+    }
+}
+
+@media screen and (width < 1250px) {
+    html{
+        font-size: 50% !important;
+    }
+}
+
+@media screen and (width < 1040px) {
+    html{
+        font-size: 35% !important;
+    }
+}
+
+ @media screen and (width < 750px) {
+    .flex-row{
+        justify-content: center !important;
+    }
+} 
+
+@media screen and (width < 600px){
+    .container{
+        padding: 0 !important;
+    }
+.f-s-content{
+    width: 26rem !important;
+    margin: 1rem 0 !important;
+}
+.footer-section > .container{
+    gap: 4rem;
+}
+.e-x-main{
+    gap: 1rem;
+}
+.flex-row{
+    flex-wrap: wrap !important;
+}
+.hero-div > h1{
+    text-align: center !important;
+}
+.hero-div > button{
+    display: block;
+    margin: 2rem auto !important;
+}
+hr{
+    display: block !important;
+}
+.page-section > .container{
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+.footer-section > .container >:nth-child(1){
+    align-items: center !important;
+}
+.s-f-content{
+    font-size: 1.5rem;
+}
+.footer-section > .container >:nth-child(1){
+    display: none !important;
+}
+.p-s-div > button{
+    display: block;
+    margin: 2rem auto !important;
+}
+.footer-section > .container {
+    /* flex-direction: column !important; */
+    padding: 4rem 0 !important;
+}
+}
+@media screen and (width <500px){
+    nav{
+        align-items: center !important;
+        justify-content: center !important;
+    }
+    .nav-right{
+        margin: 2rem ;
+    }
+    li{
+        padding: 1rem !important;
+    }
+}
+
+@media  screen and (width < 350px) {
+}
+
+@media screen  and (width < 600px) and (width>447px){
+    .e-x-main>:nth-child(4){
+        width: 70% !important;
+    }
+}

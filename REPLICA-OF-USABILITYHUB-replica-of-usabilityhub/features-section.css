@@ -1,0 +1,71 @@
+.features-section{
+    margin: 0 0 4rem 0;
+    padding: 0 0 4rem 0;
+   
+}
+.features-section > .container{
+    background-image: url(assets/asset34.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60rem;
+}
+
+.features-section > .container > button{
+    background-color: transparent;
+    outline: none;
+    border: .05rem solid #b9cde4;
+    border-radius: .5rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 1.3rem;
+margin: 0  0 2rem 0;
+}
+
+.features-section > .container > button:hover{
+    border: .05rem solid var(--primary-color) ;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.fa-arrow-right{
+position: relative;
+left: 0.4rem;
+bottom: .1rem;
+}
+
+.f-s-content{
+    width: 32rem;
+    margin: 2rem;
+}
+
+.f-s-content>:nth-child(2){
+    font-size: 2rem;
+    color: #183b56;
+    margin: 1rem;
+}
+.f-s-content>:nth-child(3){
+    margin: 1rem;
+}
+
+.f-s-content > button{
+    background-color: transparent;
+    outline: none;
+    border: .05rem solid #b9cde4;
+    border-radius: .5rem;
+    width: 13rem;
+    height: 4rem;
+    font-size: 1.3rem;
+}
+.f-s-main{
+    flex-wrap: wrap;
+}
+.f-s-content > img{
+    width: 4rem;
+}
+.f-s-content > button:hover{
+    border: .05rem solid var(--primary-color) ;
+    color: var(--primary-color);
+    cursor: pointer;
+
+}
+

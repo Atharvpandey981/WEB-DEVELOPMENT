@@ -1,0 +1,46 @@
+.hero-section{
+    padding-bottom: 3rem;
+    margin-bottom: 3rem;
+}
+
+.hero-section > .container > img{
+    width: 58.6rem;
+}
+
+
+.hero-div > h1{
+    text-align: left!important;
+}
+
+.her-div{
+    width: 10rem;
+}
+.hero-div > h1{
+    text-align: left!important;
+}
+ frontend-project3
+
+.hero-div > p{
+    text-align: left !important;
+    line-height: 3rem;
+    width: 50rem;
+}
+
+.hero-div > button {
+    width: 15rem ;
+    height: 5rem;
+    margin: 2rem 2rem  2rem 0;
+    color: #fff;
+    background-color: var(--primary-color);
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+font-size: 1.4rem ;
+font-weight: 600;
+
+}
+
+.hero-div > button:hover{
+    background-color: var(--primary-color-dark);
+}

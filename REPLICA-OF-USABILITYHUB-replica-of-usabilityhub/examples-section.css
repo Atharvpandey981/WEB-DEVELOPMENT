@@ -1,0 +1,63 @@
+.examples-section{
+    margin: 4rem 0;
+    padding: 4rem 0;
+}
+.examples-section > .container > button{
+    background-color: transparent;
+    outline: none;
+    border: .05rem solid #b9cde4;
+    border-radius: .5rem;
+    width: 18rem;
+    height: 4rem;
+    font-size: 1.3rem;
+margin: 2rem 0;
+}
+
+.examples-section > .container > button:hover{
+    border: .05rem solid var(--primary-color) ;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.e-x-main{
+    gap: 4rem;
+
+}
+
+.e-x-content{
+    background-image: grey;
+    display: flex;
+    align-items: end;
+    width: 27rem;
+    height: 30rem;
+    border-radius: .3rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+.e-x-content:hover{
+    /* width: 27.05rem;
+    height: 30.05rem; */
+    transition: all .2s;
+    box-shadow: .2rem  .2rem 2rem black;
+}
+
+.e-x-content>h3{
+color: #fff;
+}
+
+.e-x-main>:nth-child(1){
+    background-image: url(assets/asset36.jpeg);
+}
+.e-x-main>:nth-child(2){
+    background-image: url(assets/asset37.jpeg);
+}
+.e-x-main>:nth-child(3){
+    background-image: url(assets/asset38.jpeg);
+}
+.e-x-main>:nth-child(4){
+    background-image: url(assets/asset39.jpeg);
+}

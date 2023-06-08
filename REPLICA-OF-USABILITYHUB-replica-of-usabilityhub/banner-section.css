@@ -1,0 +1,9 @@
+.banner-section {
+    background-image: url(assets/asset32.png);
+    background-color: #e74694;
+    background-size: 30rem;
+}
+.banner-section > .container > p > a{
+    color: #fff;
+    margin: 1.6rem 0;
+}
